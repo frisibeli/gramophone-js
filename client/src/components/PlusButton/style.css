@@ -1,0 +1,29 @@
+.circle-button{
+    margin: 0 auto;
+    background-color:white;
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    font-size: 26px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: #42427A;
+
+}
+
+.circle-button.rotated{
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}

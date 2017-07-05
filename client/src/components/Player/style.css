@@ -1,0 +1,7 @@
+.react-player-container{
+    visibility: hidden;
+}
+
+.player-button{
+    cursor: pointer;
+}

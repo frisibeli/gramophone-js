@@ -1,0 +1,15 @@
+.button{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 10px 0;
+    color: #42427A;
+}

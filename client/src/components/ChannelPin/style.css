@@ -1,0 +1,22 @@
+.channel-pin{
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.channel-pin::before{
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.channel-pin:hover{
+    color: #ff8092;
+    cursor: pointer;
+}
+.channel-pin:hover::before{
+    background-color: #ff8092;    
+}
